@@ -1,0 +1,20 @@
+{
+  "name": "Jay",
+  "type": "studio",
+  "title": "Jay 작업실",
+  "intro": "셋톡 마을을 짓고 있어요",
+  "door": "knock",
+  "ai_staff": [],
+  "github": { "user": "snowsiro", "repos": ["gonggae"] },
+  "world": {
+    "v": 1,
+    "style": "modern",
+    "size": [3, 3],
+    "floors": 3,
+    "look": { "facade": "plaster_white", "accent": "wood_cladding" },
+    "front": ["door_glass win_tall win_tall", "win_ribbon", "win_square win_square win_square"],
+    "right": ["win_square wall win_square"],
+    "back": ["wall win_square wall"],
+    "left": ["win_double wall"]
+  }
+}
