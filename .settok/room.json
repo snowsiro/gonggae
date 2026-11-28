@@ -1,0 +1,149 @@
+{
+  "v": 2, "name": "Jay 작업실",
+  "offices": [
+    {
+      "floor": 1, "name": "로비", "kind": "lobby",
+      "map": [
+        "##############",
+        "##############",
+        "#............#",
+        "#............#",
+        "#............#",
+        "#............#",
+        "#............#",
+        "#............#",
+        "#............#",
+        "#............#",
+        "######D#######"
+      ],
+      "floors": [
+        { "area": [0, 0, 14, 11], "pattern": "marble", "color": "#e6e0d4" },
+        { "area": [3, 3, 8, 5], "pattern": "carpet", "color": "#c9d6c4", "accent": "#aebfa8" }
+      ],
+      "wall": { "pattern": "plain", "color": "#efe8da" },
+      "furniture": [
+        { "id": "memo-board", "at": [2, 0] }, { "id": "art-square", "at": [6, 0] }, { "id": "wall-clock", "at": [10, 0] }, { "id": "vine-basket", "at": [12, 0] },
+        { "id": "couch-face", "at": [5, 4] }, { "id": "low-table", "at": [5, 5] },
+        { "id": "indoor-tree", "at": [1, 3] }, { "id": "pot-plant-a", "at": [11, 3] }, { "id": "pot-plant-b", "at": [1, 8] },
+        { "id": "side-table", "at": [9, 6] }, { "id": "mug", "at": [9, 6] }
+      ],
+      "spots": [{ "kind": "plant", "at": [3, 9] }]
+    },
+    {
+      "floor": 2, "name": "작업실", "kind": "office",
+      "map": [
+        "################",
+        "################",
+        "#..............#",
+        "#..............#",
+        "#..............#",
+        "#..............#",
+        "#..............#",
+        "#..............#",
+        "#..............#",
+        "#..............#",
+        "#..............#",
+        "#..............#",
+        "#######D########"
+      ],
+      "floors": [
+        { "area": [0, 0, 16, 13], "pattern": "wideplank", "color": "#d2b48c" },
+        { "area": [11, 7, 4, 4], "pattern": "carpet", "color": "#aebccc", "accent": "#8ea0b5" }
+      ],
+      "wall": { "pattern": "stripe", "color": "#ece3d3", "accent": "#ddd0bb" },
+      "furniture": [
+        { "id": "memo-board", "at": [2, 0] }, { "id": "wall-clock", "at": [6, 0] }, { "id": "art-square", "at": [9, 0] }, { "id": "vine-basket", "at": [12, 0] },
+        { "id": "work-desk", "at": [2, 3] }, { "id": "monitor-screen", "at": [3, 2] }, { "id": "office-chair-rear", "at": [3, 5] },
+        { "id": "work-desk", "at": [6, 3] }, { "id": "monitor-screen", "at": [7, 2] }, { "id": "mug", "at": [8, 3] }, { "id": "office-chair-rear", "at": [7, 5] },
+        { "id": "work-desk", "at": [10, 3] }, { "id": "monitor-screen", "at": [11, 2] }, { "id": "office-chair-rear", "at": [11, 5] },
+        { "id": "work-desk", "at": [2, 8] }, { "id": "monitor-screen", "at": [3, 7] }, { "id": "office-chair-rear", "at": [3, 10] },
+        { "id": "work-desk", "at": [6, 8] }, { "id": "monitor-screen", "at": [7, 7] }, { "id": "mug", "at": [6, 8] }, { "id": "office-chair-rear", "at": [7, 10] },
+        { "id": "pot-plant-b", "at": [1, 2] }, { "id": "couch-face", "at": [11, 8] }, { "id": "low-table", "at": [11, 9] }, { "id": "pot-plant-a", "at": [14, 9] },
+        { "id": "side-table", "at": [13, 2] }, { "id": "coffee-machine", "at": [14, 1] }, { "id": "water-cooler", "at": [14, 6] }
+      ],
+      "spots": [{ "kind": "coffee", "at": [9, 11] }]
+    },
+    {
+      "floor": 3, "name": "부품실", "kind": "office",
+      "map": [
+        "######################",
+        "######################",
+        "#............#.......#",
+        "#............#.......#",
+        "#............#.......#",
+        "#....................#",
+        "#............#.......#",
+        "#............#.......#",
+        "#............#########",
+        "#....................#",
+        "#....................#",
+        "#....................#",
+        "#....................#",
+        "#....................#",
+        "##########D###########"
+      ],
+      "floors": [
+        { "area": [0, 0, 22, 15], "pattern": "wood", "color": "#c9a77c" },
+        { "area": [14, 2, 7, 6], "pattern": "carpet", "color": "#aebccc", "accent": "#8ea0b5" },
+        { "area": [15, 10, 6, 4], "pattern": "carpet", "color": "#d9c7a5", "accent": "#bfa77d" }
+      ],
+      "wall": { "pattern": "wood", "color": "#d8cbb6", "accent": "#a88d6a" },
+      "furniture": [
+        { "id": "vine-basket", "at": [1, 0] }, { "id": "wall-clock", "at": [5, 0] }, { "id": "art-square", "at": [8, 0] }, { "id": "memo-board", "at": [16, 0] }, { "id": "art-tall-b", "at": [19, 0] },
+        { "id": "work-desk", "at": [2, 3] }, { "id": "monitor-screen", "at": [3, 2] }, { "id": "office-chair-rear", "at": [3, 5] },
+        { "id": "work-desk", "at": [6, 3] }, { "id": "monitor-screen", "at": [7, 2] }, { "id": "mug", "at": [8, 3] }, { "id": "office-chair-rear", "at": [7, 5] },
+        { "id": "work-desk", "at": [10, 3] }, { "id": "monitor-screen", "at": [11, 2] }, { "id": "office-chair-rear", "at": [11, 5] },
+        { "id": "work-desk", "at": [2, 8] }, { "id": "monitor-screen", "at": [3, 7] }, { "id": "office-chair-rear", "at": [3, 10] },
+        { "id": "work-desk", "at": [6, 8] }, { "id": "monitor-screen", "at": [7, 7] }, { "id": "mug", "at": [6, 8] }, { "id": "office-chair-rear", "at": [7, 10] },
+        { "id": "meeting-table", "at": [16, 3] }, { "id": "office-chair-face", "at": [17, 2] }, { "id": "wood-chair-profile", "at": [15, 3] }, { "id": "wood-chair-profile", "at": [15, 5] }, { "id": "office-chair-rear", "at": [17, 7] },
+        { "id": "pot-plant-b", "at": [20, 2] },
+        { "id": "couch-face", "at": [16, 11] }, { "id": "low-table", "at": [17, 12] },
+        { "id": "book-cabinet", "at": [10, 8] }, { "id": "pot-plant-a", "at": [1, 9] }, { "id": "pot-plant-b", "at": [20, 9] }
+      ],
+      "zones": [{ "kind": "meeting", "area": [14, 2, 7, 6], "name": "회의실" }],
+      "spots": [{ "kind": "coffee", "at": [3, 13] }]
+    }
+  ],
+  "rest": [
+    { "id": "river", "name": "강변", "visibility": "public", "side": { "scene": "river-sunset", "night": "river-night", "kinds": ["bike", "run", "walk"], "cols": 28 } },
+    {
+      "id": "court", "name": "테니스장", "visibility": "private",
+      "map": [
+        "...........",
+        "...........",
+        "...........",
+        "...........",
+        "...........",
+        "...........",
+        "...........",
+        "...........",
+        "...........",
+        "...........",
+        "...........",
+        "...........",
+        "...........",
+        ".....D....."
+      ],
+      "floors": [
+        { "area": [0, 0,11, 14], "pattern": "grass", "color": "#7fae5a" },
+        { "area": [0, 2,2, 12], "pattern": "path", "color": "#cfccc5", "accent": "#a39e95" },
+        { "area": [9, 2,2, 12], "pattern": "path", "color": "#cfccc5", "accent": "#a39e95" },
+        { "area": [2, 2,7, 1], "pattern": "path", "color": "#cfccc5", "accent": "#a39e95" },
+        { "area": [2, 13, 7,1], "pattern": "path", "color": "#cfccc5", "accent": "#a39e95" },
+        { "area": [2, 3,7, 10], "pattern": "court", "color": "#3f6fa0" }
+      ],
+      "furniture": [
+        { "id": "street-lamp", "at": [0, 0] },
+        { "id": "park-bench", "at": [2, 1] },
+        { "id": "flower-bed", "at": [4, 1] },
+        { "id": "park-bench", "at": [6, 1] },
+        { "id": "park-tree", "at": [9, 0] },
+        { "id": "tennis-court", "at": [2, 3] },
+        { "id": "tennis-net", "at": [2, 7] },
+        { "id": "street-lamp", "at": [10, 6] },
+        { "id": "drinking-fountain", "at": [10, 11] }
+      ],
+      "routes": [{ "kind": "run", "path": [[1, 2], [1, 13], [9, 13], [9, 3], [8, 2]] }]
+    }
+  ]
+}
